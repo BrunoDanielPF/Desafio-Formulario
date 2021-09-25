@@ -251,56 +251,48 @@ select option {
             <div class="row">
                 <h4>dados pessoais:</h4>
                 <!-- CAMPO DE DADOS PESSOAIS-->
-                <div class="input-group input-group-icon"><input type="text" placeholder="Nome Completo" />
+                <div class="input-group input-group-icon"><input type="text" placeholder="Nome Completo *" />
                   
                 </div>
                 <div class="input-group input-group-icon"><input type="email" placeholder="RG" required />
-                    <div class="input-icon"><i class="fa fa-envelope"></i></div>
                 </div>
-                <div class="input-group input-group-icon"><input type="password" placeholder="CPF" required />
-                    <div class="input-icon"><i class="fa fa-key"></i></div>
+                <div class="input-group input-group-icon"><input type="password" placeholder="CPF *" required />
                 </div>
             </div>
             <div class="row">
                 <div class="col-half">
-                    <h4>Endereço:</h4>
+                    <h4>Localização:</h4>
                     <div class="input-group">
-                        <div class="col-third"><input type="text" placeholder="Cep" /></div>
-                        <div class="col-third"><input type="text" placeholder="Estado" /></div>
-                        <div class="col-third"><input type="text" placeholder="Cidade" /></div>
-                        <div class="col-third"><input type="text" placeholder="Bairro" /></div>
-                        <div class="col-third"><input type="text" placeholder="Logradouro" /></div>
-                        <div class="col-third"><input type="text" placeholder="Numero" required/></div>
+                        <div class="input-group input-group-icon"><input type="text" placeholder="Cep" /></div>
+                        <div class="input-group input-group-icon"><input type="text" placeholder="Estado" /></div>
+                        <p>
+                        <div class="input-group input-group-icon"><input type="text" placeholder="Cidade" /></div>
+                        <div class="input-group input-group-icon"><input type="text" placeholder="Bairro" /></div>
+                        </p>
+                        <div class="input-group input-group-icon"><input type="text" placeholder="Endereço *" /></div>
+                        <div class="input-group input-group-icon"><input type="text" placeholder="Numero *" required/></div>
                     </div>
                 </div>
-                <div class="col-half">
-                  <p><br>
-                    <h4>Genero:</h4>
-                      <div class="input-group">
-                          <select name="genero" id="genero">
-                              <option value="male">H</option>
-                              <option value="female">M</option>
-                          </select>
-                      </div>
-                  </p>
-                </div>
+            </div>
+            <div class="row">
+                <h4>Genero:</h4>
+                  <div class="input-group">
+                      <select name="genero" id="genero">
+                          <option value="male">H</option>
+                          <option value="female">M</option>
+                      </select>
+                  </div>
             </div>
             <div class="row">
                 <h4>Contato:</h4>
-                <div class="input-group"></div>
-                <div class="input-group input-group-icon"><input type="text" placeholder="Telefone celular" required/>
-                    <div class="input-icon"><i class="fa fa-credit-card"></i></div>
+                <div class="col-half">
+                  <div class="input-group input-group-icon"><input type="text" placeholder="Telefone Fixo" />
+                  </div>
                 </div>
                 <div class="col-half">
                     <div class="input-group input-group-icon"><input type="text" placeholder="Telefone Fixo" />
-                        <div class="input-icon"><i class="fa fa-user"></i></div>
                     </div>
                 </div>
-                <!--
-                <div class="col-half">
-                   
-                </div>
-                -->
             </div>
             <div class="row" style="text-align: center;">
               <button class="buttonClass">Enviar</button>
