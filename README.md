@@ -40,11 +40,12 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
  <h2>Hospedagem</h2>
  <p id="#hospedagem">Projeto hospedado na url :<a src="https://formgamaitautech.netlify.app">https://formgamaitautech.netlify.app</a></p>
 
- <h2>Referências</h2>
+ <h2 id="#referencia">Referências</h2>
 
- como usar git bash : https://www.atlassian.com/br/git/tutorials/git-bash
- como usar modulos em javascript nativo : https://blog.matheuscastiglioni.com.br/utilizando-modulos-javascript-de-forma-nativa/
- curso de css avançado: https://www.youtube.com/watch?v=RLczKOlCcFI
+ <p>como usar git bash : https://www.atlassian.com/br/git/tutorials/git-bash</p>
+
+ <p>como usar modulos em javascript nativo : https://blog.matheuscastiglioni.com.br/utilizando-modulos-javascript-de-forma-nativa/</p>
+ <p>curso de css avançado: https://www.youtube.com/watch?v=RLczKOlCcFI</p>
 
   <h2>Autor</h2>
  <p id="#autor">Bruno Daniel, feito com carinho e dedicação</p>
