@@ -40,6 +40,19 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
  <h2>Hospedagem</h2>
  <p id="#hospedagem">Projeto hospedado na url :<a src="https://formgamaitautech.netlify.app">https://formgamaitautech.netlify.app</a></p>
 
+ <h2 id="implementacao">Implementações</h2>
+ <p> foi utilizando a biblioteca jquery mask plugin para fazer validações em inputs 
+ que são necessários formatações como numero,cpf etc.
+</p>
+
+<h2 id="funcionalidades">funcionalidades</h2>
+<p>•pagina estatica: foi usado como arquivo index o html, para fazer a pagina estatica
+e a arquitetura de formulário requisitada, com suas informações no centro tendo maior manutenabilidade e responsividade em outros dispositivos e suas validações na parte lógica foi utilizado a tecnologia jquery para suas validações e formatação de textos em seus inputs</p>
+<p>•estilização: para a estilização foi utilizado a tecnologia CSS, usando os seletores do html foram separados em dois arquivo para ter maior eficiência em manutenabilidade dos estilos
+</p>
+<p>•Lógica: para fazer a parte lógica do projeto foi usada a tecnologia javascript, visando a manutenabilidade do projeto a longo prazo, foram feitos dois modulos, em que um há o arquivo que chama a função raiz que importa a outra função do modulo separado,
+fazendo uma função aninhada multipla em um event, priorizando a performance.
+</p>
  <h2 >Referências</h2>
 
  <p id="referencia">como usar git bash : https://www.atlassian.com/br/git/tutorials/git-bash</p>
