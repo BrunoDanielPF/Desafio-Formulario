@@ -1,6 +1,13 @@
 # Desafio-gama
 Desafio individual da segunda fase do Itau Tech quarta edição
 
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
+
 Projeto tem como requisitos obrigatórios: 
 
     *Domínio - Modelagem de Dados    ✅
@@ -21,10 +28,13 @@ O campo Sexo pode ser do tipo select com com as opções M = Masculino, F = Femi
 Estilização do site (CSS) básico  ✅  
 Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes e links de pesquisas ✅
 
- <h2>Tecnologias usadas</h2>
+ <h2 id="#tecnologias">Tecnologias usadas</h2>
 
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png"></code>
+
+ <h2>Autor</h2>
+ <p id="#autor">Bruno Daniel, feito com carinho e dedicação</p>
