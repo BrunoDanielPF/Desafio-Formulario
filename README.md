@@ -7,6 +7,8 @@ Desafio individual da segunda fase do Itau Tech quarta edição
  <a href="#hospedagem">Hospedagem</a> • 
  <a href="#autor">Autor</a> • 
  <a href="#referencia">Referências</a>
+ <a href="#implementacao">implementacao</a>
+ <a href="#funcionalidades">funcionalidades</a>
 </p>
 
 <h2 id="objetivo">Requisitos obrigatório</h2>
