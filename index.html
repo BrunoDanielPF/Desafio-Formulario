@@ -22,6 +22,9 @@ body {
 h4 {
   color: #f0a500;
 }
+input{
+  font-size: 15px;
+}
 input,
 input[type="radio"] + label,
 input[type="checkbox"] + label:before,
@@ -145,9 +148,6 @@ select option {
 .input-group-icon {
   position: relative;
 }
-.input-group-icon input {
-  padding-left: 4.4em;
-}
 .input-group-icon .input-icon {
   position: absolute;
   top: 0;
@@ -248,39 +248,51 @@ select option {
 <body>
     <div class="container">
         <form>
-            <div class="row">
-                <h4>dados pessoais:</h4>
-                <!-- CAMPO DE DADOS PESSOAIS-->
-                <div class="input-group input-group-icon"><input type="text" placeholder="Nome Completo *" />
-                  
-                </div>
-                <div class="input-group input-group-icon"><input type="email" placeholder="RG" required />
-                </div>
-                <div class="input-group input-group-icon"><input type="password" placeholder="CPF *" required />
+          <div class="row">
+            <h4>Dados pessoais:</h4>
+            <div class="col-half">
+              <div class="input-group input-group-icon"><input type="text" placeholder="Nome Completo *"  required/>
+              </div>
+            </div>
+            <div class="col-half">
+                <div class="input-group input-group-icon"><input type="text" placeholder="RG" />
                 </div>
             </div>
-            <div class="row">
+        </div>
+        <div class="row">
+          <div class="col-half">
+            <div class="input-group input-group-icon"><input type="text" placeholder="CPF *" required />
+            </div>
+          </div>
+          <div class="col-half">
+              <div class="input-group input-group-icon"><input type="text" placeholder="Data de nascimento" />
+              </div>
+          </div>
+      </div>
+            <div class="row">    
+                <h4>Localização:</h4>
                 <div class="col-half">
-                    <h4>Localização:</h4>
-                    <div class="input-group">
                         <div class="input-group input-group-icon"><input type="text" placeholder="Cep" /></div>
+                </div>
+                <div class="col-half">
                         <div class="input-group input-group-icon"><input type="text" placeholder="Estado" /></div>
-                        <p>
-                        <div class="input-group input-group-icon"><input type="text" placeholder="Cidade" /></div>
-                        <div class="input-group input-group-icon"><input type="text" placeholder="Bairro" /></div>
-                        </p>
-                        <div class="input-group input-group-icon"><input type="text" placeholder="Endereço *" /></div>
-                        <div class="input-group input-group-icon"><input type="text" placeholder="Numero *" required/></div>
-                    </div>
                 </div>
             </div>
             <div class="row">
-                <h4>Genero:</h4>
-                  <div class="input-group">
-                      <select name="genero" id="genero">
-                          <option value="male">H</option>
-                          <option value="female">M</option>
-                      </select>
+              <div class="col-half">
+                <div class="input-group input-group-icon"><input type="text" placeholder="Cidade" /></div>
+              </div>
+              <div class="col-half">
+                <div class="input-group input-group-icon"><input type="text" placeholder="Bairro" /></div>
+              </div>
+            </div>
+                  <div class="row">
+                   <h4>Genero:</h4>
+                    <div class="input-group">
+                        <select name="genero" id="genero">
+                            <option value="male">H</option>
+                            <option value="female">M</option>
+                        </select>
                   </div>
             </div>
             <div class="row">
