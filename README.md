@@ -4,8 +4,9 @@ Desafio individual da segunda fase do Itau Tech quarta edição
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#licenc-a">Licença</a> • 
+ <a href="#hospedagem">Hospedagem</a> • 
  <a href="#autor">Autor</a>
+ <a href="#referencia">Referências</a>
 </p>
 
 Projeto tem como requisitos obrigatórios: 
@@ -36,5 +37,14 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png"></code>
 
- <h2>Autor</h2>
+ <h2>Hospedagem</h2>
+ <p id="#hospedagem">Projeto hospedado na url :<a src="https://formgamaitautech.netlify.app">https://formgamaitautech.netlify.app</a></p>
+
+ <h2>Referências</h2>
+
+ como usar git bash : https://www.atlassian.com/br/git/tutorials/git-bash
+ como usar modulos em javascript nativo : https://blog.matheuscastiglioni.com.br/utilizando-modulos-javascript-de-forma-nativa/
+ curso de css avançado: https://www.youtube.com/watch?v=RLczKOlCcFI
+
+  <h2>Autor</h2>
  <p id="#autor">Bruno Daniel, feito com carinho e dedicação</p>
