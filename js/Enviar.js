@@ -9,4 +9,13 @@ var numCelular = document.getElementById('telCelular')
 
 var botao = document.getElementById('botaoSubmit')
 
-botao.addEventListener('click',()=>{validaDado(nome,cpf,endereco,numero,numCelular)})
+botao.addEventListener('click',
+    ()=>{
+                var termo = document.getElementById('terms')
+                if(termo.checked){
+                    validaDado(nome,cpf,endereco,numero,numCelular)
+                }else{
+                    alert(`Por favor leia o termo para seguir com cadastro.`)
+                }
+        }
+    )

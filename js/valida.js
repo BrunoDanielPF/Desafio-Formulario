@@ -1,5 +1,4 @@
 function validaDado(a ,b ,c ,d ,e ){
-    
     if(a.value == ""){
         alert(`Campo não informado!`)
         a.focus()
@@ -24,9 +23,9 @@ function validaDado(a ,b ,c ,d ,e ){
         alert(`campo não informado!`)
         e.focus()
         return;
+    }else{
+        alert(`Cadastro realizado com sucesso !`)
     }
-    alert(`Cadastro realizado com sucesso !`)
-
 }
 
 export default validaDado
