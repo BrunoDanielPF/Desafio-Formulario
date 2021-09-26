@@ -9,7 +9,7 @@ Desafio individual da segunda fase do Itau Tech quarta edição
  <a href="#referencia">Referências</a>
 </p>
 
-Projeto tem como requisitos obrigatórios: 
+<h2 id="objetivo">Requisitos obrigatório</h2>
 
     *Domínio - Modelagem de Dados    ✅
 Cadastro Pessoal com os campos: Nome,
@@ -30,7 +30,7 @@ Estilização do site (CSS) básico  ✅
 Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes e links de pesquisas ✅
 
  <h2>Tecnologias usadas</h2>
-<p id="#tecnologias">
+<p id="tecnologias">
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
@@ -42,10 +42,10 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
 
  <h2 >Referências</h2>
 
- <p id="#referencia">como usar git bash : https://www.atlassian.com/br/git/tutorials/git-bash</p>
+ <p id="referencia">como usar git bash : https://www.atlassian.com/br/git/tutorials/git-bash</p>
 
  <p>como usar modulos em javascript nativo : https://blog.matheuscastiglioni.com.br/utilizando-modulos-javascript-de-forma-nativa/</p>
  <p>curso de css avançado: https://www.youtube.com/watch?v=RLczKOlCcFI</p>
 
   <h2>Autor</h2>
- <p id="#autor">Bruno Daniel, feito com carinho e dedicação</p>
+ <p id="autor">Bruno Daniel, feito com carinho e dedicação</p>
