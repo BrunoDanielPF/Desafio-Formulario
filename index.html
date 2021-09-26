@@ -19,7 +19,7 @@
               </div>
             </div>
             <div class="col-half">
-                <div class="input-group input-group-icon"><input type="text" placeholder="RG" />
+                <div class="input-group input-group-icon"><input type="text" placeholder="RG" maxlength="10" onkeypress="$(this).mask('0000000000')"/>
                 </div>
             </div>
         </div>
@@ -39,12 +39,12 @@
                         <div class="input-group input-group-icon"><input type="text" placeholder="Cep" /></div>
                 </div>
                 <div class="col-half">
-                        <div class="input-group input-group-icon"><input type="text" placeholder="Estado" /></div>
+                        <div class="input-group input-group-icon"><input type="text" placeholder="Estado ex (SP)" maxlength="2"/></div>
                 </div>
             </div>
             <div class="row">
               <div class="col-half">
-                <div class="input-group input-group-icon"><input type="text" placeholder="Cidade" /></div>
+                <div class="input-group input-group-icon"><input type="text" placeholder="Cidade" pattern="[A-Z]" /></div>
               </div>
               <div class="col-half">
                 <div class="input-group input-group-icon"><input type="text" placeholder="Bairro" /></div>
@@ -62,7 +62,7 @@
                    <h4>Sexo:</h4>
                     <div class="input-group">
                         <select name="genero" id="genero">
-                            <option value="male">M = Masculino</option>
+                            <option value="male" >M = Masculino</option>
                             <option value="female">F = Feminino</option>
                         </select>
                   </div>
@@ -74,7 +74,7 @@
                   </div>
                 </div>
                 <div class="col-half">
-                    <div class="input-group input-group-icon"><input type="text" placeholder="Telefone Fixo" />
+                    <div class="input-group input-group-icon"><input type="text" placeholder="Telefone Fixo" maxlength="8" />
                     </div>
                 </div>
             </div>

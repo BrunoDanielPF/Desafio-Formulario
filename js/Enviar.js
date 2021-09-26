@@ -15,7 +15,7 @@ botao.addEventListener('click',
                 if(termo.checked){
                     validaDado(nome,cpf,endereco,numero,numCelular)
                 }else{
-                    alert(`Por favor leia o termo para seguir com cadastro.`)
+                    alert(`Por favor consinta com o termo para seguir com cadastro.`)
                 }
         }
     )
