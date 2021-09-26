@@ -5,7 +5,7 @@ Desafio individual da segunda fase do Itau Tech quarta edição
  <a href="#objetivo">Objetivo</a> •
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#hospedagem">Hospedagem</a> • 
- <a href="#autor">Autor</a>
+ <a href="#autor">Autor</a> • 
  <a href="#referencia">Referências</a>
 </p>
 
@@ -29,20 +29,20 @@ O campo Sexo pode ser do tipo select com com as opções M = Masculino, F = Femi
 Estilização do site (CSS) básico  ✅  
 Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes e links de pesquisas ✅
 
- <h2 id="#tecnologias">Tecnologias usadas</h2>
-
+ <h2>Tecnologias usadas</h2>
+<p id="#tecnologias">
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png"></code>
-
+</p>
  <h2>Hospedagem</h2>
  <p id="#hospedagem">Projeto hospedado na url :<a src="https://formgamaitautech.netlify.app">https://formgamaitautech.netlify.app</a></p>
 
- <h2 id="#referencia">Referências</h2>
+ <h2 >Referências</h2>
 
- <p>como usar git bash : https://www.atlassian.com/br/git/tutorials/git-bash</p>
+ <p id="#referencia">como usar git bash : https://www.atlassian.com/br/git/tutorials/git-bash</p>
 
  <p>como usar modulos em javascript nativo : https://blog.matheuscastiglioni.com.br/utilizando-modulos-javascript-de-forma-nativa/</p>
  <p>curso de css avançado: https://www.youtube.com/watch?v=RLczKOlCcFI</p>
