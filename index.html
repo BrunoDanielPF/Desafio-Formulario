@@ -8,17 +8,14 @@
     <title>Cadastro Pessoal!</title>
   <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/modal.css">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 </head>
-
 <body>
     <div class="container">
         <form>
           <div class="row">
             <h4>Dados pessoais:</h4>
             <div class="col-half">
-              <div class="input-group input-group-icon"><input type="text" placeholder="Nome Completo *"  required/>
+              <div class="input-group input-group-icon"><input id="nomeCompleto" type="text" placeholder="Nome Completo *"  required/>
               </div>
             </div>
             <div class="col-half">
@@ -28,7 +25,7 @@
         </div>
         <div class="row">
           <div class="col-half">
-            <div class="input-group input-group-icon"><input type="text" onkeypress="$(this).mask('000.000.000-00');" placeholder="CPF *" required />
+            <div class="input-group input-group-icon"><input type="text" onkeypress="$(this).mask('000.000.000-00');" placeholder="CPF *" id="CPF" required />
             </div>
           </div>
           <div class="col-half">
@@ -55,10 +52,10 @@
             </div>
             <div class="row">
               <div class="col-half">
-                <div class="input-group input-group-icon"><input type="text" placeholder="Endereço/logradouro *" required /></div>
+                <div class="input-group input-group-icon"><input type="text" id="endereco" placeholder="Endereço/logradouro *" required /></div>
               </div>
               <div class="col-half">
-                <div class="input-group input-group-icon"><input type="text" placeholder="Numero *" required/></div>
+                <div class="input-group input-group-icon"><input type="text" placeholder="Numero *" id="numero" required/></div>
               </div>
             </div>
                   <div class="row">
@@ -73,7 +70,7 @@
             <div class="row">
                 <h4>Contato:</h4>
                 <div class="col-half">
-                  <div class="input-group input-group-icon"><input type="text" onkeypress="$(this).mask('(00) 00000-0000')" placeholder="Telefone Celular *" />
+                  <div class="input-group input-group-icon"><input type="text" onkeypress="$(this).mask('(00) 00000-0000')" id="telCelular" placeholder="Telefone Celular *" required />
                   </div>
                 </div>
                 <div class="col-half">
@@ -82,7 +79,8 @@
                 </div>
             </div>
             <div class="row" style="text-align: center;">
-              <button class="buttonClass">Enviar</button>
+              <!-- BOTAO DE SUBMIT-->
+              <button id="botaoSubmit"  class="buttonClass">Enviar</button>
             </div>
             <div class="row">
                 <h4>Termos e condições</h4>
@@ -114,6 +112,9 @@
           </div>
         </form>
     </div>
-    <script src="js/formatTexto.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script type="module" src="js/Enviar.js"></script>
+    <script type="module" src="/js/valida.js"></script>
 </body>
 </html>
