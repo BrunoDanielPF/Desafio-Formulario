@@ -40,7 +40,7 @@ Disponibilizar o link do github do projeto bem descrito quanto às funcionalidad
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png"></code>
 </p>
  <h2>Hospedagem</h2>
- <p id="#hospedagem">Projeto hospedado na url :<a src="https://formgamaitautech.netlify.app">https://formgamaitautech.netlify.app</a></p>
+ <p id="#hospedagem">Projeto hospedado na url : <a src="https://formgamaitautech.netlify.app">https://formgamaitautech.netlify.app</a></p>
 
  <h2 id="implementacao">Implementações</h2>
  <p> foi utilizando a biblioteca jquery mask plugin para fazer validações em inputs 
