@@ -1,4 +1,4 @@
-# Desafio-gama
+# Desafio-
 Desafio individual da segunda fase do Itau
 
 <p align="center">
